@@ -31,7 +31,19 @@ This plugin creates fake customer data and should only be used in development/te
 
 ## 🚀 Installation
 
-### Step 0: Get the Plugin Code
+### Method 1: Composer (Recommended)
+
+Install the plugin directly from Packagist:
+
+```bash
+# Navigate to your Shopware root directory
+cd /path/to/your/shopware
+
+# Install the plugin via Composer
+composer require m-a-x-s-e-e-l-i-g/shopware-6-cart-seeder
+```
+
+### Method 2: Manual Installation
 
 Clone this repository into your Shopware installation's `custom/plugins` directory:
 
@@ -42,19 +54,16 @@ git clone <repository-url> shopware-6-cart-seeder
 
 Or download and extract the plugin into `custom/plugins/shopware-6-cart-seeder`.
 
-### Step 1: Install Dependencies
+### Install Dependencies & Activate
 
 ```bash
 # Navigate to your Shopware root directory
 cd /path/to/your/shopware
 
-# Install Faker library (required dependency)
+# Install Faker library (required dependency - only needed for manual installation)
+# Note: When installing via Composer, dependencies are handled automatically
 composer require fakerphp/faker
-```
 
-### Step 2: Activate Plugin
-
-```bash
 # Refresh plugin list
 bin/console plugin:refresh
 
