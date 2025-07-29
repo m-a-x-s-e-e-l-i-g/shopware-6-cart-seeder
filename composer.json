@@ -1,0 +1,38 @@
+{
+    "name": "m-a-x-s-e-e-l-i-g/shopware-6-cart-seeder",
+    "description": "A Shopware 6 plugin for seeding shopping carts and customers for development purposes.",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "m-a-x-s-e-e-l-i-g"
+        }
+    ],
+    "require": {
+        "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
+        "ext-json": "*",
+        "shopware/core": "6.5.* || 6.6.*",
+        "fakerphp/faker": "^1.20"
+    },
+    "extra": {
+        "shopware-plugin-class": "MaxSeelig\\CartSeeder\\MaxSeeligCartSeeder",
+        "plugin-icon": "src/Resources/config/plugin.png",
+        "label": {
+            "en-GB": "Cart Seeder - Development Tool"
+        },
+        "description": {
+            "en-GB": "Generate fake customers and shopping carts for development and testing purposes."
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "MaxSeelig\\CartSeeder\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/runtime": true
+        }
+    }
+}
