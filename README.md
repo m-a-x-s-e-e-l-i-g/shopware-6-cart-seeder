@@ -9,6 +9,8 @@ A powerful development tool for generating realistic fake customers and shopping
 
 ---
 
+<img width="945" height="318" alt="image" src="https://github.com/user-attachments/assets/4c8fe17e-60f7-4b50-a694-1327d095719a" />
+
 ## 🎯 Purpose
 
 This plugin is designed **exclusively for development and testing environments**. It provides developers with:
