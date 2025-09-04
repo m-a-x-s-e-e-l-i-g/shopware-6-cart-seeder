@@ -2,8 +2,8 @@
 
 A powerful development tool for generating realistic fake customers and shopping carts in Shopware 6.
 
-![Shopware 6](https://img.shields.io/badge/Shopware-6.6-blue?logo=shopware)
-![Plugin Version](https://img.shields.io/badge/Version-1.0.0-green)
+![Shopware 6](https://img.shields.io/badge/Shopware-^6.6-blue?logo=shopware)
+![Plugin Version](https://img.shields.io/badge/Version-1.0.1-green)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![PHP](https://img.shields.io/badge/PHP-8.3-purple)
 
@@ -188,7 +188,7 @@ Created 200 fake carts
 
 ### Requirements
 
-- **Shopware**: 6.6.*
+- **Shopware**: 6.6 or higher
 - **PHP**: 8.3
 - **Dependencies**: `fakerphp/faker` library
 - **Extensions**: `ext-json`
